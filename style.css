@@ -1,0 +1,125 @@
+
+#Continer{
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+top:30%;
+width: 100%;
+
+}
+#mainContiner{
+    border: 2px solid black;
+    min-width: 30vw;
+    min-height:35vh ;
+    border-radius: 10px;
+    align-content: center;
+    background-color:rgb(241, 233, 233);
+}
+input{
+    flex: 1;
+    position: relative;
+    width: 90%;
+    margin-top: 3%;
+    padding: 2%;
+    margin-left: 2%;
+    background-image: url("download.png");
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    text-indent : 10%;
+    font-size: 0.9rem;
+}
+
+#myButton{
+    position: absolute;
+    right: 38.6%;
+    top: 10%;
+    /* transform: translateY(-50%); */
+    padding: 8px 16px;
+    border: none;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    color: black;
+    background: url("plus-sign.png") center center no-repeat; /* Set the background image */
+    background-size:contain; /* Ensure the background image covers the entire button */
+    border: none; /* Remove default button border */
+    cursor: pointer;
+    /* display: none; */
+    margin-right: -2.5%;
+
+}  
+
+#taskOptions{
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin-left: 2%;
+}
+.taskButtons{
+    font-size: 0.7rem;
+    background-color: transparent;
+    border: none;
+}
+#completeAll{
+    padding: 0%;
+}
+
+
+.taskButtons {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.listElement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -5%;
+    width: 100%;
+    padding: 1% 0%;
+}
+
+.deleteButton {
+    background: url("corss-sign.png") center center no-repeat;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+    width: 20px;
+    height: 18px;
+    opacity: 0;
+    background-color: transparent;
+}
+
+.listElement:hover .deleteButton {
+    opacity: 1; 
+ /* margin-top: -5%; */
+    background-color: transparent;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  .contentContainer {
+    flex: 1;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+#taskInfo{
+    display: flex;
+    justify-content: space-between;
+}
+#addTaskInfo>span{
+    font-size: 0.7rem;
+}
+  

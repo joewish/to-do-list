@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Continer">
+        <div id="mainContiner">
+            <input id="taskInput" type="text" placeholder="Enter your Task">
+            <button type="button" id="myButton"></button>
+            <div id="taskOptions">
+                <button class="taskButtons" id="completeAll">Complete ALL tasks</button>
+                <button class="taskButtons" id="clearcompleteTask">Clear Completed</button>
+            </div>
+            <ul id="tasksList">
+            </ul>       
+            <div id="taskInfo">
+                <div id="numberofTasks">
+                    <span id="numberOfTasks"></span>
+                </div>
+                <div id="addTaskInfo">
+                    <span id ="allSpan">All</span>
+                    <span id="completedSpan">Completed</span>
+                    <span id="uncompletedSpan">Uncompleted</span>
+                </div>
+            </div>       
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
